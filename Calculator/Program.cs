@@ -1,6 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel;
 
+using System.ComponentModel;
+CalculatorApp();
+void CalculatorApp();
+{
 Console.WriteLine("Please enter the first number");
 int FirstNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Please enter the second number");
